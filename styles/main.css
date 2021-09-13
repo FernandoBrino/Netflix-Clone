@@ -1,0 +1,41 @@
+:root {
+  --netflixRed: #e50914;
+  --netflixBlack: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--netflixBlack);
+  font-family: "Times New Roman", Times, serif;
+}
+
+body .container {
+  display: flex;
+  flex-direction: row;
+  /* 'flex-direction: row' vem por padrão na flex box, mesmo q
+  que não declarada. */
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin-left: 5px;
+  color: var(--netflixRed);
+  font-family: "Arial Black", Times;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
