@@ -9,12 +9,15 @@
   box-sizing: border-box;
 }
 
+/*Base elements */
+
 body {
   background: var(--netflixBlack);
   font-family: "Times New Roman", Times, serif;
+  color: white;
 }
 
-body .container {
+body header .container {
   display: flex;
   flex-direction: row;
   /* 'flex-direction: row' vem por padrão na flex box, mesmo q
@@ -24,18 +27,43 @@ body .container {
 }
 
 header .logo {
-  margin-left: 5px;
-  color: var(--netflixRed);
-  font-family: "Arial Black", Times;
-  font-size: 40px;
+  margin-left: 0.3125rem;
+  height: 6.75rem;
+  width: 15rem;
 }
 
 header nav a {
   text-decoration: none;
   color: #aaa;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 header nav a:hover {
   color: #fff;
+}
+
+/*Main Film */
+.mainFilm {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("/img/BackgroundPhotoSherlock.jpg");
+
+  /*liner gradient recebe 2 cores, nesse caso duas iguais e cria uma camada fina
+  dessa cor sobre a imagem*/
+
+  height: 25rem;
+  background-size: cover;
+  /*especifica o tamanho da imagem de background */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.mainFilm .description {
+  margin-bottom: 2.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
 }
