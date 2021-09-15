@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/main.css">
+
+    <!-- owl Carousel Css -->
+    <link rel="stylesheet" href="/styles/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/styles/owl/owl.theme.default.min.css">
+
     <title>Netflix Clone</title>
 </head>
 <body>
@@ -28,16 +33,57 @@
                 <p class="description">Nesta versão moderna dos livros de Sir Arthur Conan Doyle, o excêntrico Sherlock usa inteligência, psicologia e intuição para interpretar pistas. Assista agora a nova temporada de Sherlock</p>
                 <div class="buttons">
                     <button role="button" class="button">
+                        <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>
                     <button role="button" class="button">
+                        <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
                 </div>
             </div>
-        </div>
-
-
+       </div>
     </main>
+
+    <div class="carouselMovies">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-film" src="/img/Front-BlackWidow.jpg" alt="Filme Viúva Negra">
+            </div>
+            <div class="item">
+                <img class="box-film" src="/img/Front-Cruella.jpg" alt="Filme Cruella">
+            </div>
+            <div class="item">
+                <img class="box-film" src="/img/Front-Kate.jpg" alt="Filme Kate">
+            </div>
+            <div class="item">
+                <img class="box-film" src="/img/Front-Loki.jpg" alt="Série Loki">
+            </div>
+            <div class="item">
+                <img class="box-film" src="/img/Front-Lucifer.jpg" alt="Série Lucifer">
+            </div>
+            <div class="item">
+                <img class="box-film" src="/img/Front-PeakyBlinders.jpg" alt="Série Peaky Blinders">
+            </div>
+            <div class="item">
+                <img class="box-film" src="/img/Front-KimetsuNoYaiba.jpg" alt="Anime Kimetsu No Yaiba">
+            </div>
+            <div class="item">
+                <img class="box-film" src="/img/Front-JujutsuKaisen.jpg" alt="Anime Jujutsu Kaisen">
+            </div>
+            <div class="item">
+                <img class="box-film" src="/img/Front-DragonBallZ.jpg" alt="Anime Dragon Ball Z">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/58a6949c0d.js" crossorigin="anonymous"></script>
+
+    <!-- Js owlCarousel -->
+    <script src="/js/owl/jquery.min.js" ></script>
+    <script src="/js/owl/owl.carousel.min.js" ></script>
+    <script src="js/owl/setup.js"></script>
+
 </body>
 </html>
