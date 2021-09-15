@@ -19,4 +19,3 @@ to improve Basic Web knowledge (HTML, CSS3, JS).</p>
   
 2. Use 'rem' instead of 'px' for responsivity;
 
->>>>>>> 3a511790920112098cc97f61a5236b45a87571e9
