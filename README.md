@@ -18,5 +18,3 @@ to improve Basic Web knowledge (HTML, CSS3, JS).</p>
 1. Use the original 'svg' image in header;<br>
   
 2. Use 'rem' instead of 'px' for responsivity;
-
-
