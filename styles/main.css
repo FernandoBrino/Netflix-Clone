@@ -33,6 +33,7 @@ header .logo {
 }
 
 header nav a {
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #aaa;
   margin-right: 0.625rem;
@@ -60,14 +61,31 @@ header nav a:hover {
   align-items: flex-start;
 }
 
+.mainFilm .nSymbolContainer {
+  display: flex;
+  align-items: center;
+  margin-left: -2.5rem;
+  margin-bottom: 0.625rem;
+}
+
+.mainFilm .nSymbolContainer .nSymbol {
+  height: 2rem;
+  width: 6.75rem;
+}
+
+.mainFilm .nSymbolContainer p {
+  margin-left: -2rem;
+}
+
 .mainFilm .description {
+  font-family: Arial, Helvetica, sans-serif;
   margin-top: 0.625rem;
   margin-bottom: 2.5rem;
 }
 
 .title {
-  margin-top: 2.4rem;
-  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
 }
 
 .button {
@@ -104,4 +122,8 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.carouselMovies {
+  margin-top: 0.3125rem;
 }
