@@ -9,9 +9,3 @@ to improve Basic Web knowledge (HTML5, CSS3, JS).</p>
 
 1.Use the original 'svg' image in header; <br>
 2.Use 'rem' instead of 'px' for responsivity;
-
-<h2> Improvements by Me 😁 <h2>
-
-1. Use the original 'svg' image in header;<br>
-  
-2. Use 'rem' instead of 'px' for responsivity;
